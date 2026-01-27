@@ -10,7 +10,7 @@ def generate_code():
 def count_exact_and_inexact_matches(secret_code, guessed_code):
   exact_matches=0
   inexact_matches=0
-  guessed_code = list(secret_code)
+  guessed_code = list(guessed_code)
   for i in range(len(secret_code)):
       if guessed_code[i]==secret_code[i]:
           exact_matches+=1
