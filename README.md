@@ -1,6 +1,4 @@
 # Mastermind-game
-- Incomplete. Currently the count_exact_and_inexact_matches function is having issues.
-
 Mastermind is a two-player code-breaking game, where one person sets a 4-character code, and the other person has to guess the code.
 
 In this implementation, the 4-character code is made up of the letters A,B,C,D,E,F.  In the original game they used coloured pegs.
